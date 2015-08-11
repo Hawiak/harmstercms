@@ -1,0 +1,53 @@
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a.new{
+    display: block;
+    border:1px solid black;
+    width: 50px;
+    height:34px;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 10px;
+    
+}
+
+a:hover {
+    color:deepskyblue;
+    text-decoration: none;
+}
+
+.wrapper{
+    width:1005px;
+    margin:auto;
+}
+
+label{
+    display: block;
+    width:250px;
+}
+
+input[type="text"]{
+
+    width:100%;
+}
+
+table{
+    width:100%;
+}
+
+table > tr > th {
+    font-weight:bold;
+    border-bottom: 1px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

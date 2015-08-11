@@ -1,0 +1,33 @@
+html, body{
+    margin:0px;
+    padding:0px;
+    height:100%;
+    font-family: Verdana;
+}
+.wrapper{
+    padding:10px;
+    width:1005px;
+    margin:auto;
+    border:1px solid black;
+    height:100%;
+}
+#navbar{
+    width:1005px;
+}
+#navbar ul{
+    
+}
+#navbar > a > li{
+    display: inline-block;
+    width:200px;
+    padding:20px;
+    border: gray solid 1px;
+}
+
+.account_banner {
+    width:985px;
+    border-bottom: 1px solid black;
+    height:28px;
+    line-height: 28px;
+    padding:10px;
+}
